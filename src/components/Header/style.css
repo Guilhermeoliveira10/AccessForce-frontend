@@ -1,9 +1,18 @@
 header{
     padding: 10px;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(186, 185, 185, 0.658);
+    background-color: white;
+
+}
+
+#botao-e-menu-hamburguer{
+    display: flex;
+    margin-right: 20px;
 }
 #nav-bar{
     display: none;
@@ -12,8 +21,26 @@ header{
     display: flex;
     list-style: none;
 }
-#botao-e-menu-hamburguer{
+#nav-bar-lateral{
+    position: absolute;
+    top: 77px;
+    background-color: white;
+    width: 170px;
+    padding: 20px;
+    border: 1px solid rgba(186, 185, 185, 0.658);
+    height: fit-content;
+}
+#nav-items-laterais{
     display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+    height: 40vh;
+    align-items: center;   
+}
+#nav-items-laterais li a{
+    text-decoration: none;
+    color: #032D60;
 }
 
 #teste-gratis{
@@ -38,6 +65,27 @@ header{
     margin: 8px;
 }
 
+
+
+@media(min-width: 720px){
+    #menu-hamburguer{
+        display: none;
+    }
+    #nav-bar{
+        display: flex;
+        width: 85vw;
+        justify-content: flex-end;
+    }
+    #nav-items{
+        width: 50vw;
+        justify-content: space-around;
+        color: #032D60;
+    }
+    #nav-bar-lateral{
+        display: none;
+    }
+
+}
 
 
 /* .header{

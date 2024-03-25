@@ -6,7 +6,13 @@ const Header = () => {
 
     const[ativo, setAtivo] = useState(false)
 
+    function alternar(){
+        setAtivo(!ativo)
+    }
+
     return(
+
+        
        <header className='header'>
             
             <img width={80} id="salesforce-icon" src={salesforceIcon} alt="Ícone Salesforce" />
@@ -23,15 +29,27 @@ const Header = () => {
             
                 <button id='teste-gratis'>Teste grátis</button>
 
-                <div id='menu-hamburguer'>
+                <div onClick={alternar} id='menu-hamburguer'>
                     <div id="linha1" className='linha'></div>
                     <div id="linha2" className='linha'></div>
                     <div id="linha3" className='linha'></div>
                 </div>
 
+                {ativo? <nav id='nav-bar-lateral'>
+                            <ul id='nav-items-laterais'>
+                                <li><a href="*">Produtos</a></li>
+                                <li><a href="*">Costumer 360</a></li>
+                                <li><a href="*">Quem somos?</a></li>
+                            </ul>
+                        </nav>
+                :
+                <></>
+                }
+                
             </div>
 
        </header> 
+       
     )
 }
 
