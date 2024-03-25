@@ -1,0 +1,138 @@
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(186, 185, 185, 0.658);
+}
+#nav-bar{
+    display: none;
+}
+#nav-items{ 
+    display: flex;
+    list-style: none;
+}
+#botao-e-menu-hamburguer{
+    display: flex;
+}
+
+#teste-gratis{
+    color: white;
+    background-color: #0DAA7B;
+    border-radius: 10px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    margin-right: 3vw;
+}
+#teste-gratis:hover{
+    background-color: #096c4f;
+}
+
+
+.linha{
+    background-color: #032D60;
+    width: 40px;
+    height: 5px;
+    margin: 8px;
+}
+
+
+
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#button-menu{
+    display: flex;
+    gap: 3vw;
+}
+#salesforce-icon{
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+#barra-nav ul{
+    display: none;
+    position: fixed;
+}
+
+#barra-nav .ativo{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color: #032D60;
+    color: white;
+    padding: 3rem;
+    list-style: none;
+    
+}
+
+
+
+#teste-gratis-button{
+    color: white;
+    background-color: #0DAA7B;
+    border-radius: 10px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    margin-right: 3vw;
+}
+#teste-gratis-button:hover{
+    background-color: #096c4f;
+}
+
+#hamburguinho{
+    justify-content: space-between;
+    padding-right: 2vw;
+}
+#hamburguinho.ativado div#linha1{
+    visibility: hidden;
+    
+}
+#hamburguinho.ativado div#linha2{
+    transform: translateY(50%) rotate(45deg);
+    transition: 0.3s ease-in;
+}
+#hamburguinho.ativado div#linha3{
+    transform: translateY(-200%) rotate(-45deg);
+    transition: 0.3s ease-in;
+}
+
+
+#hamburguinho .hamburguinho-barra{
+    width: 40px;
+    height: 5px;
+    margin: 8px;
+    background-color: #5a5f64;
+    z-index: 10;
+    position: relative;
+}
+
+
+
+
+
+@media(min-width: 700px){
+    #hamburguinho{
+        display: none;
+    }
+   
+    #barra-nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    #barra-nav ul li{
+        color: #032D60;
+    }
+
+}
+ */

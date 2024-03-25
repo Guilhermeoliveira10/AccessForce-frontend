@@ -7,11 +7,11 @@ const Login = () => {
 
     return (
         <section id="login">
-            <div id="form-menu">
+            {/* <div id="form-menu">
                 <button>AcessForce Menu
                     <img src={Menuicon} alt="Menuicon" />
                 </button>
-            </div>
+            </div> */}
             <img src={Logo} alt="logo" />
             <h2>Bem-vindo</h2>
             <form action="">
