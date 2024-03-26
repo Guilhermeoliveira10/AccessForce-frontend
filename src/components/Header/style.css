@@ -1,4 +1,4 @@
-header{
+header {
     padding: 10px;
     position: fixed;
     width: 100%;
@@ -7,21 +7,23 @@ header{
     align-items: center;
     border-bottom: 1px solid rgba(186, 185, 185, 0.658);
     background-color: white;
-
 }
 
-#botao-e-menu-hamburguer{
+#botao-e-menu-hamburguer {
     display: flex;
     margin-right: 20px;
 }
-#nav-bar{
+
+#nav-bar {
     display: none;
 }
-#nav-items{ 
+
+#nav-items {
     display: flex;
     list-style: none;
 }
-#nav-bar-lateral{
+
+#nav-bar-lateral {
     position: absolute;
     top: 77px;
     background-color: white;
@@ -29,36 +31,47 @@ header{
     padding: 20px;
     border: 1px solid rgba(186, 185, 185, 0.658);
     height: fit-content;
+    transition: transform 0.3s ease-in-out;
 }
-#nav-items-laterais{
+
+#nav-items-laterais {
     display: flex;
     flex-direction: column;
     list-style: none;
-    justify-content: space-around;
-    height: 40vh;
-    align-items: center;   
+    row-gap: 2rem;
+    height: 18vh;
+    width: 100%;
+    
 }
-#nav-items-laterais li a{
-    text-decoration: none;
-    color: #032D60;
+#nav-items-laterais li{
+    text-align: left;
+    padding-left: 28px;
 }
 
-#teste-gratis{
+#nav-items-laterais li a {
+    text-decoration: none;
+    color: #032D60;
+    text-align: center;
+    width: 50%;
+}
+
+#teste-gratis {
     color: white;
     background-color: #0DAA7B;
     border-radius: 10px;
     width: 130px;
     padding: 10px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 3vw;
 }
-#teste-gratis:hover{
+
+#teste-gratis:hover {
     background-color: #096c4f;
 }
 
 
-.linha{
+.linha {
     background-color: #032D60;
     width: 40px;
     height: 5px;
@@ -67,24 +80,38 @@ header{
 
 
 
-@media(min-width: 720px){
-    #menu-hamburguer{
+@media(min-width: 720px) {
+    #menu-hamburguer {
         display: none;
     }
-    #nav-bar{
+
+    #nav-bar {
         display: flex;
         width: 85vw;
         justify-content: flex-end;
     }
-    #nav-items{
+
+    #nav-items {
         width: 50vw;
         justify-content: space-around;
         color: #032D60;
     }
-    #nav-bar-lateral{
+
+    #nav-bar-lateral {
         display: none;
     }
 
+}
+
+@keyframes bolinho {
+    0% {
+        transform: translateX(100%);
+
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 
