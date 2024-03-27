@@ -1,0 +1,15 @@
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: #032D60;
+    margin-bottom: 74px;
+}
+
+.subtitle h1 {
+    width: 50%;
+    font-weight: bold;
+}
