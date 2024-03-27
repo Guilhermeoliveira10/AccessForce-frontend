@@ -1,0 +1,153 @@
+.costumer-image-text {
+    height: 480px;
+
+}
+
+.costumer-image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+
+.costumer-image-text h1 {
+    width: 32vw;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.costumer-resources-img {
+    width: 460px;
+}
+
+.costumer-round-image {
+    display: none;
+}
+
+.costumer-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.costumer-text h3 {
+    width: 45vw;
+    max-width: 420px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.cards-title {
+    margin-top: 52px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.cards-title h1 {
+    width: 280px;
+}
+
+.mini-cards-area {
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 40px;
+    gap: 10%;
+}
+
+.mini-cards-area .line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8vh;
+}
+
+@media(min-width: 800px) {
+    .costumer-round-image {
+        display: block;
+        margin-top: 80px;
+    }
+
+    .costumer-round-image img {
+        display: block;
+        margin-top: 50px;
+        width: 300px;
+    }
+
+
+
+    .top-content {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    .costumer-image-text h1 {
+        width: 32vw;
+        font-weight: bold;
+    }
+
+    .costumer-resources-img {
+        width: 460px;
+        display: none;
+    }
+
+    .cards-title h1 {
+        width: 40vw;
+    }
+
+    .mini-cards-area .line {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .costumer-round-image img {
+        display: block;
+        margin-top: 50px;
+        width: 500px;
+    }
+
+    .costumer-image-text h1 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .mini-cards-area {
+        width: 100%;
+
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mini-cards-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mini-cards-area .line {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+}

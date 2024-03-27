@@ -33,7 +33,7 @@ const Header = () => {
                     <div id="linha3" className='linha'></div>
                 </div>
 
-                <nav id='nav-bar-lateral' style={{ transform: `${menuAtivo ? "translateX(0%)" : "translateX(100%)"}` }}>
+                <nav id='nav-bar-lateral' style={{ transform: `${menuAtivo ? "translateX(10%)" : "translateX(110%)"}` }}>
                     <ul id='nav-items-laterais'>
                         <li><a href="*">Produtos</a></li>
                         <li><a href="*">Costumer 360</a></li>

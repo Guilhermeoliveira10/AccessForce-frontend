@@ -1,7 +1,7 @@
 import './style.css'
 import Header from "../../components/Header"
 import TextImageButton from "../../components/TextImageButton"
-import Costumer360 from '../../assets/Costumer360.svg'
+import Costumer360Round from '../../assets/Costumer360.svg'
 import MediumCard from "../../components/MediumCard"
 import CardImageGuy from "../../assets/CardImageGuy.svg"
 import CardImageLady from "../../assets/CardImageLady.svg"
@@ -18,7 +18,7 @@ const Home = () => {
 
             <TextImageButton
                 text='Tenha tudo em um só lugar e entregue sucesso  com o Costumer 360 da Salesforce.  '
-                image={Costumer360}
+                image={Costumer360Round}
                 buttonVariant='primary'
                 buttonText='Faça o Teste Grátis' />
 
