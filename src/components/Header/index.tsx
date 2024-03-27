@@ -1,6 +1,7 @@
 import './style.css'
 import salesforceIcon from '../../assets/salesforce-icon.png'
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -13,7 +14,11 @@ const Header = () => {
     return (
         <header className='header'>
 
-            <img width={90} id="salesforce-icon" src={salesforceIcon} alt="Ícone Salesforce" />
+
+            <Link to="/">
+                <img width={90} id="salesforce-icon" src={salesforceIcon} alt="Ícone Salesforce" />
+            </Link>
+
 
             <nav id='nav-bar'>
                 <ul id='nav-items'>
@@ -35,9 +40,9 @@ const Header = () => {
 
                 <nav id='nav-bar-lateral' style={{ transform: `${menuAtivo ? "translateX(10%)" : "translateX(110%)"}` }}>
                     <ul id='nav-items-laterais'>
-                        <li><a href="*">Produtos</a></li>
-                        <li><a href="*">Costumer 360</a></li>
-                        <li><a href="*">Quem somos?</a></li>
+                        <li><a href="">Produtos</a></li>
+                        <li><Link to="/Costumer360">Costumer 360</Link></li>
+                        <li><a href="">Quem somos?</a></li>
                     </ul>
                 </nav>
 
