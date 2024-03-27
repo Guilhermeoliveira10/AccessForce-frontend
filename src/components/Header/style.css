@@ -1,5 +1,5 @@
-header {
-    padding: 10px;
+.header {
+    padding: 12px;
     position: fixed;
     width: 100%;
     display: flex;
@@ -7,7 +7,6 @@ header {
     align-items: center;
     border-bottom: 1px solid rgba(186, 185, 185, 0.658);
     background-color: white;
-    margin-bottom: 300px;
 }
 
 #botao-e-menu-hamburguer {
@@ -82,7 +81,7 @@ header {
 
 
 
-@media(min-width: 768px) {
+@media(min-width: 992px) {
     #menu-hamburguer {
         display: none;
     }

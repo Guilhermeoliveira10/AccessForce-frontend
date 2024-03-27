@@ -11,11 +11,9 @@ const Header = () => {
     }
 
     return (
-
-
         <header className='header'>
 
-            <img width={80} id="salesforce-icon" src={salesforceIcon} alt="Ícone Salesforce" />
+            <img width={90} id="salesforce-icon" src={salesforceIcon} alt="Ícone Salesforce" />
 
             <nav id='nav-bar'>
                 <ul id='nav-items'>

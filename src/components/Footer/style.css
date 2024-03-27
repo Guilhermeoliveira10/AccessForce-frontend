@@ -1,0 +1,32 @@
+footer {
+    border-top: 1px solid rgba(186, 185, 185, 0.658);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    color: #032045;
+}
+
+section span {
+    text-decoration: underline;
+}
+
+section span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    section {
+        font-size: small;
+    }
+
+}
