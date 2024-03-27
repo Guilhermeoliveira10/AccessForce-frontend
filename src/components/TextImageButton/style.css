@@ -1,0 +1,156 @@
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 780px;
+}
+
+.text-image-button {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    color: #032D60;
+    gap: 20px;
+
+}
+
+.text-image-button h2 {
+    font-weight: 800;
+
+}
+
+.text-button {
+    max-width: 354px;
+}
+
+.text-button #button-below-text {
+    display: none;
+}
+
+.text-image-button img {
+    width: 300px;
+}
+
+.text-image-button Button {
+    width: 20rem;
+}
+
+.image-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.image-button Button {
+    font-size: medium;
+}
+
+@media(min-width: 992px) {
+
+    .section {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 640px;
+    }
+
+    .text-image-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 78vw;
+    }
+
+    .text-image-button h2 {
+        font-size: 30px;
+        font-weight: 800;
+        height: fit-content;
+        padding-top: 43px;
+    }
+
+    .text-button {
+        display: flex;
+        flex-direction: column;
+        row-gap: 52px;
+    }
+
+    .text-button #button-below-text {
+        display: block;
+        font-size: 24px;
+        width: 100%;
+        height: 64px;
+
+
+    }
+
+
+
+    .image-button #button-below-image {
+        display: none;
+
+    }
+
+    .text-image-button img {
+        width: 400px;
+    }
+
+}
+
+@media(min-width: 1400px) {
+    .section {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 740px;
+    }
+
+    .text-image-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 78vw;
+        max-width: 1200px;
+    }
+
+    .text-image-button h2 {
+        font-size: 42px;
+        font-weight: 800;
+        height: fit-content;
+        padding-top: 43px;
+        width: 520px;
+    }
+
+    .text-button {
+        display: flex;
+        flex-direction: column;
+        row-gap: 52px;
+    }
+
+    .text-button #button-below-text {
+        display: block;
+        font-size: 24px;
+        width: 100%;
+        height: 64px;
+
+
+    }
+
+
+
+    .image-button #button-below-image {
+        display: none;
+
+    }
+
+    .text-image-button img {
+        width: 560px;
+    }
+
+}

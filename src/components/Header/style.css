@@ -7,6 +7,7 @@ header {
     align-items: center;
     border-bottom: 1px solid rgba(186, 185, 185, 0.658);
     background-color: white;
+    margin-bottom: 300px;
 }
 
 #botao-e-menu-hamburguer {
@@ -41,9 +42,10 @@ header {
     row-gap: 2rem;
     height: 18vh;
     width: 100%;
-    
+
 }
-#nav-items-laterais li{
+
+#nav-items-laterais li {
     text-align: left;
     padding-left: 28px;
 }
@@ -80,7 +82,7 @@ header {
 
 
 
-@media(min-width: 720px) {
+@media(min-width: 768px) {
     #menu-hamburguer {
         display: none;
     }

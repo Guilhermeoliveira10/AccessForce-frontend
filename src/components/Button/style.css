@@ -12,6 +12,9 @@
 }
 
 .button.secondary {
-    background-color: #6c757d;
+    background-color: #0DAA7B;
     color: white;
+}
+.button:hover{
+    background-color: #0054af;
 }
