@@ -8,6 +8,8 @@ import { RouterProvider } from 'react-router-dom'
 import QuemSomos from './pages/QuemSomos/index.tsx'
 import Produtos from './pages/Produtos/index.tsx'
 import Integrantes from './pages/Integrantes/index.tsx'
+import Login from './pages/Login/index.tsx'
+import Cadastro from './pages/Cadastro/index.tsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: '/integrantes',
     element: <Integrantes/>
+  },
+  {
+    path: '/login',
+    element: <Login/>
+  },
+  {
+    path: '/cadastro',
+    element: <Cadastro/>
   }
 ]);
 
