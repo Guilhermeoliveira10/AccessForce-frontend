@@ -1,8 +1,17 @@
 .card-integrante {
-    background-color: red;
+    background-color: #032D60;
     width: 25vw;    
     padding: 40px;
     border-radius: 40px;
-    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+#rm-social-icon {
+    display: flex;
+    justify-content: flex-end;
 
 }
