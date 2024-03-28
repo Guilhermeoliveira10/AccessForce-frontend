@@ -3,13 +3,12 @@
     padding: 16px;
     width: 120px;
     height: 80px;
-    border-radius: 20px ;
-    border: solid 1px rgba(144, 175, 190, 0.73);
+    border-radius: 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(144, 175, 190, 0.73) 2px 2px 2px 2px;
-    
+    box-shadow: rgba(111, 111, 111, 0.729) 1px 8px 10px 1px;
 }
 
 .mini-card .leaves-img {

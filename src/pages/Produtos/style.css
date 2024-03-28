@@ -1,0 +1,30 @@
+#title {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#title h1 {
+    font-size: 30px;
+    width: 60vw;
+    text-align: center;
+}
+
+#card-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20vh;
+    margin-bottom: 140px;
+}
+
+@media(min-width: 992px) {
+    #card-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+}
