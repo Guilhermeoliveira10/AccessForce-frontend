@@ -7,6 +7,8 @@ import CostumerThreeSixty from './pages/Costumer360/index.tsx'
 import { RouterProvider } from 'react-router-dom'
 import QuemSomos from './pages/QuemSomos/index.tsx'
 import Produtos from './pages/Produtos/index.tsx'
+import Integrantes from './pages/Integrantes/index.tsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/quem-somos',
     element: <QuemSomos/>
+  },
+  {
+    path: '/integrantes',
+    element: <Integrantes/>
   }
 ]);
 
