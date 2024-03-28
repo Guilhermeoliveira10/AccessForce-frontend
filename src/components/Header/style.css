@@ -24,6 +24,15 @@
     list-style: none;
 }
 
+#nav-items #link {
+    color: #032D60;
+    text-decoration: none;
+}
+
+#nav-items #link:hover {
+    color: #0964d4;
+}
+
 #nav-bar-lateral {
     position: absolute;
     top: 92px;

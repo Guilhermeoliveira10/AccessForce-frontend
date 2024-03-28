@@ -22,9 +22,9 @@ const Header = () => {
 
             <nav id='nav-bar'>
                 <ul id='nav-items'>
-                    <li>Produtos</li>
-                    <li>Costumer 360</li>
-                    <li>Quem somos?</li>
+                    <li><Link id='link' to="/produtos">Produtos</Link></li>
+                    <li><Link id='link' to="/costumer360">Costumer 360</Link></li>
+                    <li><Link id='link' to="/quem-somos">Quem somos?</Link></li>
                 </ul>
             </nav>
 
@@ -40,9 +40,9 @@ const Header = () => {
 
                 <nav id='nav-bar-lateral' style={{ transform: `${menuAtivo ? "translateX(10%)" : "translateX(110%)"}` }}>
                     <ul id='nav-items-laterais'>
-                        <li><a href="">Produtos</a></li>
-                        <li><Link to="/Costumer360">Costumer 360</Link></li>
-                        <li><a href="">Quem somos?</a></li>
+                        <li><Link to="/produtos">Produtos</Link></li>
+                        <li><Link to="/costumer360">Costumer 360</Link></li>
+                        <li><Link to="/quem-somos">Quem somos?</Link></li>
                     </ul>
                 </nav>
 
