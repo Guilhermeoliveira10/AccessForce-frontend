@@ -30,7 +30,10 @@ const Header = () => {
 
             <div id='botao-e-menu-hamburguer'>
 
-                <button id='teste-gratis'>Teste grátis</button>
+                <Link to="/cadastro">
+                    <button id='teste-gratis'>Teste grátis</button>
+                </Link>
+
 
                 <div onClick={alternarMenu} id='menu-hamburguer' >
                     <div id="linha1" className='linha'></div>

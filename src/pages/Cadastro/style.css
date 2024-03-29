@@ -1,0 +1,138 @@
+#cadastro-register {
+    background-color: #FFFFF2;
+}
+
+.image-side {
+    display: none;
+}
+
+#form-register {
+    width: 70vw;
+    max-width: 400px;
+    border-radius: 38px 38px 0px 0px;
+    height: 66vh;
+    padding: 18px;
+    overflow-y: hidden;
+}
+
+#salesforce-logo {
+    margin-top: 12.2px;
+    width: 10vw;
+    min-width: 120px;
+}
+
+.form-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+#title-register {
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#user-info-register {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+}
+
+.field-register {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.field-register input {
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.check-box-agreement span {
+    font-size: 10px;
+
+}
+
+#submit-register {
+    font-family: "Sora", sans-serif;
+    color: white;
+    background-color: #032D60;
+    width: 300px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+#already-cliente {
+    color: #032D60;
+}
+
+@media(min-width: 768px) {
+    #title-register {
+        margin-top: 10px;
+        font-size: smaller;
+        width: 80%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    #already-cliente {
+        font-size: smaller;
+    }
+
+    #form-register {
+        width: 70vw;
+        max-width: 400px;
+        border-radius: 38px 38px 0px 0px;
+        height: 430px;
+        padding: 18px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .image-side {
+        display: block;
+    }
+
+    #form-register {
+        width: 70vw;
+        max-width: 400px;
+        border-radius: 38px 38px 0px 0px;
+        height: 445px;
+        padding: 18px;
+    }
+
+    #cadastro-register {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    img#salesforce-boy {
+        width: 18vw;
+    }
+
+    #title-register {
+        width: 60%;
+        max-width: 500px;
+        text-align: center;
+    }
+}

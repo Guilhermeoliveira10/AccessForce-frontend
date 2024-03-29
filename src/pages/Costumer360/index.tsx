@@ -71,10 +71,10 @@ const CostumerThreeSixty = () => {
                 buttonText='Faça o Teste Grátis' />
 
 
-            <Footer/>
-    
+            <Footer />
+
         </div>
-    
+
     )
 }
 

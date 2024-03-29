@@ -1,29 +1,32 @@
 import "./style.css"
+import { Link } from "react-router-dom"
+
 import Logo from '../../img/logo-salesforce.png'
 import SalesforceMascote from '../../assets/mascote-salesforce.svg'
+
 const Login = () => {
-    
+
 
     return (
         <section id="login">
             <div className="form-container">
-                <img src={Logo} alt="logo" />
+                <img id="sf-logo" src={Logo} alt="logo" />
                 <h2>Bem-vindo ao AccessForce</h2>
                 <form action="">
                     <div id="user-info">
                         <div className="field">
-                            <input type="text" name="username" placeholder="Nome"/>
+                            <input type="text" name="username" placeholder="Nome" />
                         </div>
                         <div className="field">
-                            <input type="password" name="password" placeholder="Senha"/>
+                            <input type="password" name="password" placeholder="Senha" />
                         </div>
                         <div id="remember-me">
-                            <input type="checkbox"/> <span>Lembrar de mim</span>
+                            <input type="checkbox" /> <span>Lembrar de mim</span>
                         </div>
                         <button id="submit">Entrar</button>
                     </div>
                     <footer>
-                        <a href="">Ainda não sou cliente</a>
+                        <Link to="/cadastro">Ainda não sou cliente</Link>
                         <a href="">Esqueci minha senha</a>
                     </footer>
                 </form>

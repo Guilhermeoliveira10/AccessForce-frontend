@@ -1,6 +1,7 @@
 .card-integrante {
     background-color: #032D60;
-    width: 25vw;    
+    width: 240px;
+    max-width: 240px;
     padding: 40px;
     border-radius: 40px;
     color: white;
@@ -13,5 +14,11 @@
 #rm-social-icon {
     display: flex;
     justify-content: flex-end;
+    column-gap: 20px;
+    width: 100%;
+}
 
+.social-icon:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
 }

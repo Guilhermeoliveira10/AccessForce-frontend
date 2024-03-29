@@ -24,6 +24,10 @@ section span:hover {
     cursor: pointer;
 }
 
+#link{
+    color: #032045;;
+}
+
 @media(max-width: 800px) {
     section {
         font-size: small;
