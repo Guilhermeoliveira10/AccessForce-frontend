@@ -18,7 +18,7 @@ const CardIntegrantes = (integranteProps: IntegranteProps) => {
       <h2>{integranteProps.nome}</h2>
       <div id="rm-social-icon">
         <h2>{`RM: ${integranteProps.numeroRM}`}</h2>
-        <Link to={integranteProps.LinkedInIntegrante}><img className='social-icon' src={LinkedInIcon} /></Link>
+        <Link target="_blank" to={integranteProps.LinkedInIntegrante}><img className='social-icon' src={LinkedInIcon} /></Link>
       </div>
     </div>
   );

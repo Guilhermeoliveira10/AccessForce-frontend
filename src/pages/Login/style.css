@@ -62,10 +62,6 @@ form {
     font-family: "Sora", sans-serif;
 }
 
-.field input::placeholder {
-    color: #000000;
-}
-
 .field input:focus {
     outline: none;
 }

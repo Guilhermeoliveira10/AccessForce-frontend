@@ -57,7 +57,7 @@ const QuemSomos = () => {
                     Vá em direção ao sucesso do cliente ao lado da Salesforce
                 </h1>
                 <img id='mascots-group-image' src={SalesforceMascotGroup} alt="" />
-                <Link to={"*"}><Button variant='secondary' text='Teste grátis o CRM da Salesforce' id='bottom-button' onClick={() => { }} /></Link>
+                <Link to={"/cadastro"}><Button variant='secondary' text='Teste grátis o CRM da Salesforce' id='bottom-button' onClick={() => { }} /></Link>
             </section>
 
             <Footer />

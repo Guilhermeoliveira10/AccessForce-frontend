@@ -1,5 +1,6 @@
 #cadastro-register {
     background-color: #FFFFF2;
+    height: 100vh;
 }
 
 .image-side {
@@ -115,7 +116,7 @@
     #form-register {
         width: 70vw;
         max-width: 400px;
-        border-radius: 38px 38px 0px 0px;
+        border-radius: 38px 38px 38px 38px;
         height: 445px;
         padding: 18px;
     }

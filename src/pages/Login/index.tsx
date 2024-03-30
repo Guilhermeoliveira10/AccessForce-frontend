@@ -10,7 +10,10 @@ const Login = () => {
     return (
         <section id="login">
             <div className="form-container">
-                <img id="sf-logo" src={Logo} alt="logo" />
+                <Link to="/">
+                    <img id="sf-logo" src={Logo} alt="logo" />
+                </Link>
+
                 <h2>Bem-vindo ao AccessForce</h2>
                 <form action="">
                     <div id="user-info">

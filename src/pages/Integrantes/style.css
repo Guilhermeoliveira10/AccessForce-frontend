@@ -7,8 +7,8 @@
     justify-content: center;
 }
 
-.title{
-    color: #032045;;
+.title {
+    color: #032045;
 }
 
 #card-grid {
@@ -16,6 +16,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.git-hub-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.git-hub-link:hover {
+    transform: scale(1.03);
+    transition: all 0.1s ease-in
+}
+
+.git-hub-link h1:hover {
+    color: #1a6fe0
 }
 
 @media(min-width: 992px) {
