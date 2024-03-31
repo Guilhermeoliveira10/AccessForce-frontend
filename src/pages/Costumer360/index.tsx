@@ -19,7 +19,7 @@ import EinsteinLady from '../../assets/EinsteinLady.svg'
 
 const CostumerThreeSixty = () => {
     return (
-        <div>
+        <main>
             <Header />
 
             <section className='top-content'>
@@ -73,7 +73,7 @@ const CostumerThreeSixty = () => {
 
             <Footer />
 
-        </div>
+        </main>
 
     )
 }
